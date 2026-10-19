@@ -1,0 +1,8 @@
+# Sitesmith site — direction contract
+
+- **Mode / User / Job / Next action**: `persuade / business owner or managing partner / verify that Teratech Solutions is a legitimate web engineering company, inspect real preview sites and transparent pricing, and choose a website tier / email admin@t3ratech.co.zw or request a preview`.
+- **Audience**: managing partners, clinic directors, contractors, med-spa owners, and sports agencies in the US, UK, and Zimbabwe who either received a custom Sitesmith preview email or searched for a done-for-you business website + local SEO/AEO service.
+- **Visual world**: architectural studio and editorial atelier — warm bone paper (`#faf7f2`), deep midnight ink (`#0d1330`), brushed gold (`#b87d2b` / `#e0a952`), and oceanic teal (`#16627f` / `#5cb8dc`).
+- **Typography**: editorial serif display headings (`Instrument Serif` / `Georgia`) paired with clean geometric sans body and `tabular-nums` on every price, metric, and audit comparison.
+- **Anti-scam & trust clarity**: dedicates a first-class verification section and `/verify.html` page explaining why we build private `noindex` previews before charging a cent, naming Teratech Solutions (Private) Limited in Harare, Zimbabwe, and showing real WavePay checkout rails (PayPal, Visa, Mastercard, EcoCash, OneMoney, InnBucks, ZimSwitch, USDT).
+- **Standards**: 100% compliant with `docs/standards/site-quality.md` (`SQ01`–`SQ21`), `ui-master` (`en`/`sn`/`nd` locales, `system`/`light`/`dark` theme triad with pre-paint resolution), `t3ratech-webdev` (Agents-First Level 4 surfaces), and the link-watch SEO/AEO playbook (`config/growth/seo-playbook.json`).
