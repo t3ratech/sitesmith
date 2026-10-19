@@ -1,0 +1,19 @@
+{
+  "name": "T3rnel Sitesmith",
+  "version": "1.3.0",
+  "homepage": "https://sitesmith.t3ratech.co.zw/",
+  "documentation": "https://sitesmith.t3ratech.co.zw/skill.md",
+  "publisher": {
+    "name": "Teratech Solutions (Private) Limited",
+    "url": "https://t3ratech.co.zw",
+    "email": "admin@t3ratech.co.zw"
+  },
+  "surfaces": {
+    "llms": "https://sitesmith.t3ratech.co.zw/llms.txt",
+    "agentsMd": "https://sitesmith.t3ratech.co.zw/AGENTS.md",
+    "skill": "https://sitesmith.t3ratech.co.zw/skill.md",
+    "openapi": "https://sitesmith.t3ratech.co.zw/openapi.json",
+    "summary": "https://sitesmith.t3ratech.co.zw/ai/summary.json",
+    "faq": "https://sitesmith.t3ratech.co.zw/ai/faq.json"
+  }
+}

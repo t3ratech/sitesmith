@@ -1,0 +1,49 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "T3rnel Sitesmith Service & Multi-Tenant Router API",
+    "version": "1.3.0",
+    "description": "Public service discovery, client portal, and multi-tenant preview/live site router for T3rnel Sitesmith by Teratech Solutions (Private) Limited.",
+    "contact": {
+      "name": "Teratech Solutions (Private) Limited",
+      "url": "https://sitesmith.t3ratech.co.zw",
+      "email": "admin@t3ratech.co.zw"
+    }
+  },
+  "servers": [
+    { "url": "https://sitesmith.t3ratech.co.zw", "description": "Public Sitesmith website and AI discovery files" },
+    { "url": "https://t3rnel-sitesmith-admin.t3ratech.workers.dev", "description": "Client Self-Managed Portal and Multi-Tenant Site Router" }
+  ],
+  "paths": {
+    "/ai/summary.json": {
+      "get": {
+        "operationId": "getSitesmithSummary",
+        "summary": "Return structured summary of T3rnel Sitesmith tiers, pricing, and guarantees",
+        "responses": { "200": { "description": "Structured JSON summary" } }
+      }
+    },
+    "/ai/faq.json": {
+      "get": {
+        "operationId": "getSitesmithFaq",
+        "summary": "Return structured FAQ answers for business owners evaluating T3rnel Sitesmith",
+        "responses": { "200": { "description": "Structured JSON FAQ list" } }
+      }
+    },
+    "/p/{slug}/": {
+      "get": {
+        "operationId": "getClientPreviewSite",
+        "summary": "Serve a client's private noindex preview website from the Single Multi-Tenant Router Worker",
+        "parameters": [{ "name": "slug", "in": "path", "required": true, "schema": { "type": "string" } }],
+        "responses": { "200": { "description": "Rendered HTML preview site" } }
+      }
+    },
+    "/live/{slug}/": {
+      "get": {
+        "operationId": "getClientLiveSite",
+        "summary": "Serve a client's production website from the Single Multi-Tenant Router Worker",
+        "parameters": [{ "name": "slug", "in": "path", "required": true, "schema": { "type": "string" } }],
+        "responses": { "200": { "description": "Rendered HTML live site" } }
+      }
+    }
+  }
+}

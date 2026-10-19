@@ -1,0 +1,16 @@
+# https://sitesmith.t3ratech.co.zw/.well-known/ai.txt — AI crawler and agent permissions
+# Mirrors the Content-Signal in robots.txt.
+
+User-Agent: *
+Allow: /
+
+Training: allowed
+Search-indexing: allowed
+Retrieval-and-citation: allowed
+Attribution: requested — cite https://sitesmith.t3ratech.co.zw (Teratech Solutions (Private) Limited)
+
+Llms: https://sitesmith.t3ratech.co.zw/llms.txt
+Summary: https://sitesmith.t3ratech.co.zw/ai/summary.json
+Faq: https://sitesmith.t3ratech.co.zw/ai/faq.json
+Skill: https://sitesmith.t3ratech.co.zw/skill.md
+Contact: admin@t3ratech.co.zw

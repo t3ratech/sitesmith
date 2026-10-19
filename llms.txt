@@ -1,0 +1,18 @@
+# T3rnel Sitesmith
+
+> Build-first websites, local SEO and AI-answer visibility by Teratech Solutions (Private) Limited (Harare). We build a business's new website from its own published facts, show a private preview, and launch on its own address within 3 working days of the deposit.
+
+## Pages
+- [Home](https://sitesmith.t3ratech.co.zw/)
+- [Pricing](https://sitesmith.t3ratech.co.zw/pricing/)
+- [How it works](https://sitesmith.t3ratech.co.zw/how-it-works/)
+- [Verify an email from us](https://sitesmith.t3ratech.co.zw/verify/)
+- [FAQ](https://sitesmith.t3ratech.co.zw/faq/)
+
+## Prices (USD)
+- United States and United Kingdom: Essential $990 then $240/year; Self-Managed $1,490 then $300/year; Signature $2,490 then $360/year. Deposit $250. Stay Visible $149/month. Payment: PayPal (any card or PayPal balance) or USDT on BNB Smart Chain.
+- Zimbabwe: Essential $70 then $20/year; Self-Managed $120 then $25/year; Signature $180 then $30/year. Deposit $50. Stay Visible $15/month. Payment: PayNow (EcoCash, OneMoney, InnBucks, ZimSwitch, cards), PayPal or USDT on BNB Smart Chain.
+
+## Contact
+- Email only: admin@t3ratech.co.zw
+- Machine summary: https://sitesmith.t3ratech.co.zw/ai/summary.json

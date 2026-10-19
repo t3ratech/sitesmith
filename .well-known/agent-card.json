@@ -1,0 +1,19 @@
+{
+  "name": "T3rnel Sitesmith",
+  "description": "Build-first business websites, a Visibility Launch (directory listings, social pages, first posts, search registration) and AI-answer visibility by Teratech Solutions (Private) Limited. We build your preview before you pay.",
+  "url": "https://sitesmith.t3ratech.co.zw/",
+  "version": "1.3.0",
+  "provider": {
+    "organization": "Teratech Solutions (Private) Limited",
+    "url": "https://t3ratech.co.zw"
+  },
+  "documentation": "https://sitesmith.t3ratech.co.zw/skill.md",
+  "capabilities": {
+    "pricing": "https://sitesmith.t3ratech.co.zw/pricing/",
+    "howItWorks": "https://sitesmith.t3ratech.co.zw/how-it-works/",
+    "verify": "https://sitesmith.t3ratech.co.zw/verify/",
+    "faq": "https://sitesmith.t3ratech.co.zw/faq/",
+    "summary": "https://sitesmith.t3ratech.co.zw/ai/summary.json",
+    "adminPortal": "https://t3rnel-sitesmith-admin.t3ratech.workers.dev"
+  }
+}

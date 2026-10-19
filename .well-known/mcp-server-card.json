@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "1.0",
+  "name": "t3rnel-sitesmith",
+  "title": "T3rnel Sitesmith — Autonomous Website & Visibility Pipeline",
+  "description": "Build-first business websites, local SEO, and Answer Engine Optimization by Teratech Solutions (Private) Limited.",
+  "homepage": "https://sitesmith.t3ratech.co.zw/",
+  "documentation": "https://sitesmith.t3ratech.co.zw/skill.md",
+  "openapi": "https://sitesmith.t3ratech.co.zw/openapi.json"
+}

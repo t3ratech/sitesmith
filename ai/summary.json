@@ -1,0 +1,74 @@
+{
+  "name": "T3rnel Sitesmith",
+  "provider": "Teratech Solutions (Private) Limited",
+  "email": "admin@t3ratech.co.zw",
+  "deliveryWorkingDays": 3,
+  "visibilityLaunch": [
+    "List you in business directories",
+    "Set up your social pages",
+    "Write and schedule your first 10 posts",
+    "Set up your website to be found",
+    "Add a WhatsApp button and an enquiry form",
+    "Add a news section"
+  ],
+  "markets": [
+    {
+      "market": "United States and United Kingdom",
+      "deposit": 250,
+      "stayVisibleMonthly": 149,
+      "payment": "PayPal (any card or PayPal balance) or USDT on BNB Smart Chain",
+      "tiers": [
+        {
+          "id": "essential",
+          "name": "Essential",
+          "price": 990,
+          "renewalPerYear": 240,
+          "recommended": false
+        },
+        {
+          "id": "self-managed",
+          "name": "Self-Managed",
+          "price": 1490,
+          "renewalPerYear": 300,
+          "recommended": false
+        },
+        {
+          "id": "signature",
+          "name": "Signature",
+          "price": 2490,
+          "renewalPerYear": 360,
+          "recommended": true
+        }
+      ]
+    },
+    {
+      "market": "Zimbabwe",
+      "deposit": 50,
+      "stayVisibleMonthly": 15,
+      "payment": "PayNow (EcoCash, OneMoney, InnBucks, ZimSwitch, cards), PayPal or USDT on BNB Smart Chain",
+      "tiers": [
+        {
+          "id": "essential",
+          "name": "Essential",
+          "price": 70,
+          "renewalPerYear": 20,
+          "recommended": false
+        },
+        {
+          "id": "self-managed",
+          "name": "Self-Managed",
+          "price": 120,
+          "renewalPerYear": 25,
+          "recommended": false
+        },
+        {
+          "id": "signature",
+          "name": "Signature",
+          "price": 180,
+          "renewalPerYear": 30,
+          "recommended": true
+        }
+      ]
+    }
+  ]
+}

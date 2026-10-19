@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="T3rnel Sitesmith mark">
+  <rect width="64" height="64" rx="16" fill="#141c3d"/>
+  <path d="M16 44L28 20l10 16 6-10 4 18H16z" fill="#d4a359"/>
+  <circle cx="44" cy="20" r="5" fill="#5cb8dc"/>
+</svg>
