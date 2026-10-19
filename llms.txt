@@ -2,17 +2,25 @@
 
 > Build-first websites, local SEO and AI-answer visibility by Teratech Solutions (Private) Limited (Harare). We build a business's new website from its own published facts, show a private preview, and launch on its own address within 3 working days of the deposit.
 
-## Pages
+## Pages (each also as Markdown: add index.md to the path)
 - [Home](https://sitesmith.t3ratech.co.zw/)
 - [Pricing](https://sitesmith.t3ratech.co.zw/pricing/)
 - [How it works](https://sitesmith.t3ratech.co.zw/how-it-works/)
+- [Request a preview](https://sitesmith.t3ratech.co.zw/request-preview/)
 - [Verify an email from us](https://sitesmith.t3ratech.co.zw/verify/)
-|- [Request a preview](https://sitesmith.t3ratech.co.zw/request-preview/)
 - [FAQ](https://sitesmith.t3ratech.co.zw/faq/)
+- [Privacy](https://sitesmith.t3ratech.co.zw/privacy/)
+
+## For agents
+- [Onboarding for agents](https://sitesmith.t3ratech.co.zw/skill.md): how to ask for a free preview for a business, and the rules
+- [AGENTS.md](https://sitesmith.t3ratech.co.zw/AGENTS.md)
+- [OpenAPI](https://sitesmith.t3ratech.co.zw/openapi.json): includes POST https://t3rnel-sitesmith-admin.t3ratech.workers.dev/api/request-preview
+- [Whole site as one file](https://sitesmith.t3ratech.co.zw/llms-full.txt)
 
 ## Prices (USD)
 - Essential $70 then $20/year; Self-Managed $120 then $25/year; Signature $180 then $30/year. Deposit $50. Stay Visible $15/month. Same in every country. Payment: PayNow (EcoCash, OneMoney, InnBucks, ZimSwitch, cards) in Zimbabwe; PayPal (any card or PayPal balance) or USDT on BNB Smart Chain anywhere.
 
 ## Contact
-- Email only: admin@t3ratech.co.zw
+- Email: admin@t3ratech.co.zw
+- Ask for a preview: https://sitesmith.t3ratech.co.zw/request-preview/ (or POST https://t3rnel-sitesmith-admin.t3ratech.workers.dev/api/request-preview)
 - Machine summary: https://sitesmith.t3ratech.co.zw/ai/summary.json

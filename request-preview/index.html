@@ -13,7 +13,8 @@
 <meta property="og:url" content="https://sitesmith.t3ratech.co.zw/request-preview/">
 <meta property="og:image" content="https://sitesmith.t3ratech.co.zw/assets/social-card.svg">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-<link rel="alternate" type="text/markdown" href="/llms.txt">
+<link rel="alternate" type="text/markdown" href="/request-preview/index.md">
+<link rel="alternate" type="text/markdown" href="/llms.txt" title="llms.txt">
 <link rel="stylesheet" href="/assets/site.css">
 <script>(function(){try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;}catch(e){}})();</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Teratech Solutions (Private) Limited","alternateName":"T3raTech","url":"https://t3ratech.co.zw","email":"admin@t3ratech.co.zw","address":{"@type":"PostalAddress","addressLocality":"Harare","addressCountry":"ZW"}}</script>
@@ -85,6 +86,8 @@ I want to build a website from scratch
 <li>You decide: if you like it, choose an option and pay the deposit. If not, reply "no thanks" and we delete it.</li>
 </ol>
 <p><em>Requests are processed in the order received. Providing complete information helps us prioritize your request.</em></p>
+<h2>Requesting a preview</h2>
+<p>Using an AI assistant or a script? A preview can be requested without the form, for the business owner or with their permission. Send <code>POST https://t3rnel-sitesmith-admin.t3ratech.workers.dev/api/request-preview</code> with <code>Accept: application/json</code> and the fields <code>email</code> (required), <code>business_name</code>, <code>website</code>, <code>social_pages</code>, <code>content</code> and <code>additional</code>. It returns <code>{"ok": true, "requestId": "..."}</code> and the preview arrives by email. A preview is free and carries no obligation. One request per email address per day. The details are in <a href="/skill.md">skill.md</a> and <a href="/openapi.json">openapi.json</a>.</p>
 </div></section>
 </main>
 <footer class="foot">

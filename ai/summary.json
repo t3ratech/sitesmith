@@ -13,6 +13,24 @@
   ],
   "currency": "USD",
   "sameInEveryCountry": true,
+  "requestPreview": {
+    "method": "POST",
+    "url": "https://t3rnel-sitesmith-admin.t3ratech.workers.dev/api/request-preview",
+    "required": [
+      "email"
+    ],
+    "optional": [
+      "business_name",
+      "website",
+      "social_pages",
+      "content",
+      "additional"
+    ],
+    "accept": "application/json",
+    "limits": "1 per email per day",
+    "consent": "only for the business owner or with their permission",
+    "docs": "https://sitesmith.t3ratech.co.zw/skill.md"
+  },
   "deposit": 50,
   "stayVisibleMonthly": 15,
   "payment": "PayNow (EcoCash, OneMoney, InnBucks, ZimSwitch, cards) in Zimbabwe; PayPal (any card or PayPal balance) or USDT on BNB Smart Chain anywhere",

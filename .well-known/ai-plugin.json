@@ -3,7 +3,7 @@
   "name_for_human": "T3rnel Sitesmith",
   "name_for_model": "t3rnel_sitesmith",
   "description_for_human": "Done-for-you business websites built as a live preview before you pay, with Google Maps, directory citations, and AI search optimization.",
-  "description_for_model": "Query T3rnel Sitesmith pricing (one USD list for every country), what each option includes, how the build-first process works, and how to verify an email from Teratech Solutions (admin@t3ratech.co.zw).",
+  "description_for_model": "Query T3rnel Sitesmith pricing (one USD list for every country), what each option includes, how the build-first process works, how to verify an email from Teratech Solutions (admin@t3ratech.co.zw), and ask for a free preview website for a business (POST /api/request-preview on the admin Worker; only for the owner or with their permission).",
   "auth": {
     "type": "none"
   },

@@ -2,7 +2,7 @@
   "name": "T3rnel Sitesmith",
   "description": "Build-first business websites, a Visibility Launch (directory listings, social pages, first posts, search registration) and AI-answer visibility by Teratech Solutions (Private) Limited. We build your preview before you pay.",
   "url": "https://sitesmith.t3ratech.co.zw/",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "provider": {
     "organization": "Teratech Solutions (Private) Limited",
     "url": "https://t3ratech.co.zw"
@@ -14,6 +14,56 @@
     "verify": "https://sitesmith.t3ratech.co.zw/verify/",
     "faq": "https://sitesmith.t3ratech.co.zw/faq/",
     "summary": "https://sitesmith.t3ratech.co.zw/ai/summary.json",
-    "adminPortal": "https://t3rnel-sitesmith-admin.t3ratech.workers.dev"
-  }
+    "adminPortal": "https://t3rnel-sitesmith-admin.t3ratech.workers.dev",
+    "requestPreview": "https://t3rnel-sitesmith-admin.t3ratech.workers.dev/api/request-preview",
+    "llmsFull": "https://sitesmith.t3ratech.co.zw/llms-full.txt",
+    "openapi": "https://sitesmith.t3ratech.co.zw/openapi.json"
+  },
+  "skills": [
+    {
+      "id": "request-preview",
+      "name": "Request a free preview website",
+      "description": "Ask for a preview website for a business. It is built automatically from the business's own published facts and emailed to the owner. Only for the owner or with their permission.",
+      "tags": [
+        "website",
+        "local-business",
+        "preview"
+      ],
+      "endpoint": "https://t3rnel-sitesmith-admin.t3ratech.workers.dev/api/request-preview",
+      "method": "POST",
+      "inputModes": [
+        "multipart/form-data",
+        "application/x-www-form-urlencoded"
+      ],
+      "outputModes": [
+        "application/json"
+      ]
+    },
+    {
+      "id": "pricing",
+      "name": "Read prices and what each option includes",
+      "description": "One USD price list for every country.",
+      "tags": [
+        "pricing"
+      ],
+      "endpoint": "https://sitesmith.t3ratech.co.zw/ai/summary.json",
+      "method": "GET",
+      "outputModes": [
+        "application/json"
+      ]
+    },
+    {
+      "id": "faq",
+      "name": "Read answers to common questions",
+      "description": "Structured FAQ for business owners.",
+      "tags": [
+        "faq"
+      ],
+      "endpoint": "https://sitesmith.t3ratech.co.zw/ai/faq.json",
+      "method": "GET",
+      "outputModes": [
+        "application/json"
+      ]
+    }
+  ]
 }

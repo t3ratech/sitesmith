@@ -20,7 +20,33 @@ Payment is always on a WavePay checkout page sent by email: PayNow in Zimbabwe, 
 
 ## How to engage
 
-- Email only: admin@t3ratech.co.zw. Ask for a preview of a named business, or reply to a preview email with the option you want.
+**Ask for a preview (free, no payment):** `POST https://t3rnel-sitesmith-admin.t3ratech.workers.dev/api/request-preview` as `multipart/form-data` or `application/x-www-form-urlencoded`, with `Accept: application/json`.
+
+| Field | Required | Notes |
+|---|---|---|
+| `email` | yes | Where the preview is sent. Must be the business owner's address, or one they have given you to use. |
+| `business_name` | no | Up to 200 characters. |
+| `website` | no, but needed to build | The business's current website. Without one we reply asking for it. |
+| `social_pages` | no | Facebook, Instagram, Google Maps and similar links, one per line. |
+| `content` | no | What the business does and wants said (up to 2000 characters). |
+| `additional` | no | Anything else (up to 1000 characters). |
+
+A successful call returns `{"ok": true, "requestId": "..."}`. The site is built automatically from the business's own published facts; the owner gets an email with a private preview link, usually within hours and always within one working day. Limits: 1 request per email address per day, 3 per IP address per hour. Errors are JSON with an `error` message (400 invalid input, 403 foreign browser origin, 429 limit reached).
+
+```bash
+curl -X POST https://t3rnel-sitesmith-admin.t3ratech.workers.dev/api/request-preview \
+  -H 'Accept: application/json' \
+  -F email=owner@example.com -F business_name='Example Dental' \
+  -F website=https://example.com -F content='Family dental practice in Harare.'
+```
+
+**Rules for agents**
+
+- Only ask for a preview on behalf of the business owner, or with their permission. Never submit someone else's email address.
+- Never pay on anyone's behalf without the owner's explicit instruction. A preview costs nothing and carries no obligation.
+- To choose an option, the owner replies to the preview email (or uses the checkout link in it).
+- Email: admin@t3ratech.co.zw (questions, corrections, taking a preview down).
 - Payment: WavePay checkout pages sent by email (PayPal or USDT on BNB Smart Chain; PayNow in Zimbabwe). Never anywhere else.
 - Verify an email: https://sitesmith.t3ratech.co.zw/verify/
 - Machine-readable prices: https://sitesmith.t3ratech.co.zw/ai/summary.json
+- Every page is also available as Markdown (add `index.md` to its path, e.g. https://sitesmith.t3ratech.co.zw/pricing/index.md), and the whole site as one file: https://sitesmith.t3ratech.co.zw/llms-full.txt
