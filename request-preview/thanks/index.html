@@ -17,6 +17,8 @@
 <link rel="alternate" type="text/markdown" href="/llms.txt" title="llms.txt">
 <link rel="stylesheet" href="/assets/site.css">
 <script>(function(){try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;}catch(e){}})();</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});try{if(localStorage.getItem('analytics')==='granted')gtag('consent','update',{analytics_storage:'granted'})}catch(e){}gtag('js',new Date());gtag('config','G-6P2Y9CRKH2',{anonymize_ip:true,allow_google_signals:false,allow_ad_personalization_signals:false});</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6P2Y9CRKH2"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Teratech Solutions (Private) Limited","alternateName":"T3raTech","url":"https://t3ratech.co.zw","email":"admin@t3ratech.co.zw","address":{"@type":"PostalAddress","addressLocality":"Harare","addressCountry":"ZW"}}</script>
 </head>
 <body>
@@ -43,6 +45,11 @@
     <span class="theme" role="group" aria-label="Colour theme">Theme <button type="button" data-theme-choice="system" aria-pressed="false">System</button><button type="button" data-theme-choice="light" aria-pressed="false">Light</button><button type="button" data-theme-choice="dark" aria-pressed="false">Dark</button></span></p>
   </div>
 </footer>
+<div class="consent" id="consent" role="region" aria-label="Analytics choice" hidden>
+  <p>We count visits with Google Analytics, only if you say yes. Until then nothing is stored. <a href="/privacy/">Privacy</a></p>
+  <div class="consent__actions"><button type="button" class="btn btn--primary" data-consent="granted">Yes, count my visit</button><button type="button" class="btn" data-consent="denied">No thanks</button></div>
+</div>
+<script>(function(){var bar=document.getElementById('consent');if(!bar)return;var v;try{v=localStorage.getItem('analytics')}catch(e){}if(v!=='granted'&&v!=='denied')bar.hidden=false;bar.addEventListener('click',function(e){var c=e.target.closest('[data-consent]');if(!c)return;var g=c.dataset.consent;try{localStorage.setItem('analytics',g)}catch(x){}if(typeof gtag==='function')gtag('consent','update',{analytics_storage:g});bar.hidden=true})})();</script>
 <script>(function(){var b=document.querySelectorAll('[data-theme-choice]');function mark(v){b.forEach(function(x){x.setAttribute('aria-pressed',String(x.dataset.themeChoice===v))})}var c;try{c=localStorage.getItem('theme')}catch(e){}mark(c==='light'||c==='dark'?c:'system');b.forEach(function(x){x.addEventListener('click',function(){var v=x.dataset.themeChoice;try{v==='system'?localStorage.removeItem('theme'):localStorage.setItem('theme',v)}catch(e){}if(v==='system')delete document.documentElement.dataset.theme;else document.documentElement.dataset.theme=v;mark(v)})})})();</script>
 </body>
 </html>

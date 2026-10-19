@@ -171,3 +171,12 @@ form button[type="submit"] {
 form button[type="submit"]:hover { background: var(--ink); }
 form button[type="submit"]:disabled { opacity: 0.6; cursor: not-allowed; }
 
+
+/* Analytics choice: a quiet bar at the foot of the page, shown once. */
+.consent { position: fixed; inset-inline: 0; bottom: 0; z-index: 20; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem 1.5rem; padding: 0.9rem var(--gutter); background: var(--paper); border-top: 1px solid var(--rule); box-shadow: 0 -6px 24px color-mix(in srgb, var(--ink) 18%, transparent); }
+.consent[hidden] { display: none; }
+.consent p { margin: 0; max-width: 46rem; font-size: 0.9375rem; }
+.consent__actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.consent .btn { min-height: 2.5rem; padding: 0 1.1rem; cursor: pointer; font: inherit; font-weight: 700; background: transparent; }
+.consent .btn--primary { background: var(--gold); border-color: var(--gold); color: var(--on-accent); }
+@media (max-width: 760px) { .consent { padding-bottom: calc(0.9rem + env(safe-area-inset-bottom)); } .consent__actions .btn { flex: 1 1 10rem; justify-content: center; } }
