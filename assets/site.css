@@ -124,3 +124,50 @@ details p { margin: 0.75rem 0 0; color: var(--ink-soft); }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* Form styles for preview request page */
+.form-group { margin-bottom: 1.5rem; }
+.form-group label { display: block; font-weight: 700; margin-bottom: 0.5rem; }
+.form-group input[type="email"],
+.form-group input[type="text"],
+.form-group input[type="url"],
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  font: inherit;
+  background: var(--paper);
+  color: var(--ink);
+  min-height: 2.75rem;
+}
+.form-group textarea { min-height: 6rem; resize: vertical; }
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: 3px solid var(--gold-bright);
+  outline-offset: 2px;
+  border-color: var(--gold);
+}
+.form-group input[type="checkbox"] {
+  width: auto;
+  min-height: auto;
+  margin-right: 0.5rem;
+}
+.form-group label input[type="checkbox"] + span { font-weight: 400; }
+.required { color: var(--gold); }
+.hint { font-size: 0.875rem; color: var(--ink-soft); margin-top: 0.4rem; }
+form button[type="submit"] {
+  background: var(--gold);
+  color: var(--on-accent);
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  min-height: 2.875rem;
+  transition: background-color var(--ease);
+}
+form button[type="submit"]:hover { background: var(--ink); }
+form button[type="submit"]:disabled { opacity: 0.6; cursor: not-allowed; }
+

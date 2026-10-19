@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Request a preview | Sitesmith</title>
+<meta name="description" content="Tell us about your business and we will build a preview website for you before you pay anything.">
+<link rel="canonical" href="https://sitesmith.t3ratech.co.zw/request-preview/">
+<meta name="theme-color" content="#0d1330">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Request a preview | Sitesmith">
+<meta property="og:description" content="Tell us about your business and we will build a preview website for you before you pay anything.">
+<meta property="og:url" content="https://sitesmith.t3ratech.co.zw/request-preview/">
+<meta property="og:image" content="https://sitesmith.t3ratech.co.zw/assets/social-card.svg">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="text/markdown" href="/llms.txt">
+<link rel="stylesheet" href="/assets/site.css">
+<script>(function(){try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;}catch(e){}})();</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Teratech Solutions (Private) Limited","alternateName":"T3raTech","url":"https://t3ratech.co.zw","email":"admin@t3ratech.co.zw","address":{"@type":"PostalAddress","addressLocality":"Harare","addressCountry":"ZW"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="shell top__row">
+    <a class="brand" href="/"><span class="brand__mark" aria-hidden="true">S</span><span>Sitesmith <small>by Teratech Solutions</small></span></a>
+    <nav aria-label="Main"><ul class="nav"><li><a href="/pricing/">Pricing</a></li><li><a href="/how-it-works/">How it works</a></li><li><a href="/request-preview/" aria-current="page">Request a preview</a></li><li><a href="/verify/">Verify us</a></li><li><a href="/faq/">FAQ</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+<section class="hero hero--slim"><div class="shell"><h1>Request a preview</h1><p class="lead">We study your business, build a better site from the facts you already publish, and show it to you privately. You decide after you have seen it.</p></div></section>
+<section class="band"><div class="shell prose">
+<h2>What we need from you</h2>
+<p>Fill in the form below. The more you tell us, the better your preview will be. All fields are optional except your email.</p>
+<form id="preview-request" method="POST" action="https://t3rnel-sitesmith-preview.t3ratech.workers.dev/api/request-preview">
+<div class="form-group">
+<label for="email">Your email <span class="required">*</span></label>
+<input type="email" id="email" name="email" required autocomplete="email" placeholder="you@yourbusiness.com">
+<p class="hint">We will send your preview to this address. We never share it.</p>
+</div>
+<div class="form-group">
+<label for="business-name">Business name</label>
+<input type="text" id="business-name" name="business_name" autocomplete="organization" placeholder="Your Business Name">
+</div>
+<div class="form-group">
+<label for="website">Your current website (if you have one)</label>
+<input type="url" id="website" name="website" autocomplete="url" placeholder="https://yourbusiness.com">
+<p class="hint">We will study your existing site to understand your services, people and hours.</p>
+</div>
+<div class="form-group">
+<label for="social-pages">Social media pages or directory listings</label>
+<textarea id="social-pages" name="social_pages" rows="3" placeholder="Facebook, Instagram, LinkedIn, Google Maps, Yelp, etc. — one per line"></textarea>
+<p class="hint">Any public profiles where your business appears help us understand how you present yourself.</p>
+</div>
+<div class="form-group">
+<label for="content">Content you want on your site (optional)</label>
+<textarea id="content" name="content" rows="5" placeholder="Tell us about your services, what makes you different, key messages you want to communicate..."></textarea>
+<p class="hint">Maximum 2000 characters. We use what you write here, but we also cross-check it against what you already publish publicly.</p>
+</div>
+<div class="form-group">
+<label for="additional">Any additional information</label>
+<textarea id="additional" name="additional" rows="3" placeholder="Specific requirements, questions, or anything else we should know"></textarea>
+<p class="hint">Maximum 1000 characters.</p>
+</div>
+<div class="form-group">
+<label>
+<input type="checkbox" name="service_type" value="upgrade">
+I want to upgrade my existing website
+</label>
+</div>
+<div class="form-group">
+<label>
+<input type="checkbox" name="service_type" value="new">
+I want to build a website from scratch
+</label>
+</div>
+<button type="submit" class="btn btn--primary">Submit request</button>
+<p class="muted small">By submitting, you agree that we may use the information you provide (and what we find publicly about your business) to build a preview website. We will contact you only at the email you provide. Reply "no thanks" at any time and we will delete everything.</p>
+</form>
+<p><strong>What happens next:</strong></p>
+<ol>
+<li>We review your request (usually within 1 working day)</li>
+<li>We study your existing web presence (your site, social pages, directories)</li>
+<li>We build a private preview of a better website for your business</li>
+<li>We email you a link to the preview (hidden from search engines)</li>
+<li>You decide: if you like it, choose an option and pay the deposit. If not, reply "no thanks" and we delete it.</li>
+</ol>
+<p><em>Requests are processed in the order received. Providing complete information helps us prioritize your request.</em></p>
+</div></section>
+</main>
+<footer class="foot">
+  <div class="shell foot__grid">
+    <p><strong>Teratech Solutions (Private) Limited</strong><br>Harare, Zimbabwe. Websites, local search and AI-answer visibility for businesses in the US, UK and Zimbabwe.</p>
+    <p><a href="mailto:admin@t3ratech.co.zw">admin@t3ratech.co.zw</a><br><a href="https://t3ratech.co.zw/sitesmith">t3ratech.co.zw/sitesmith</a></p>
+    <p><a href="/privacy/">Privacy</a> · <a href="/verify/">Verify an email from us</a><br>
+    <span class="theme" role="group" aria-label="Colour theme">Theme <button type="button" data-theme-choice="system" aria-pressed="false">System</button><button type="button" data-theme-choice="light" aria-pressed="false">Light</button><button type="button" data-theme-choice="dark" aria-pressed="false">Dark</button></span></p>
+  </div>
+</footer>
+<script>(function(){var b=document.querySelectorAll('[data-theme-choice]');function mark(v){b.forEach(function(x){x.setAttribute('aria-pressed',String(x.dataset.themeChoice===v))})}var c;try{c=localStorage.getItem('theme')}catch(e){}mark(c==='light'||c==='dark'?c:'system');b.forEach(function(x){x.addEventListener('click',function(){var v=x.dataset.themeChoice;try{v==='system'?localStorage.removeItem('theme'):localStorage.setItem('theme',v)}catch(e){}if(v==='system')delete document.documentElement.dataset.theme;else document.documentElement.dataset.theme=v;mark(v)})})})();</script>
+</body>
+</html>

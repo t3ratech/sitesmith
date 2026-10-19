@@ -7,6 +7,7 @@
 - [Pricing](https://sitesmith.t3ratech.co.zw/pricing/)
 - [How it works](https://sitesmith.t3ratech.co.zw/how-it-works/)
 - [Verify an email from us](https://sitesmith.t3ratech.co.zw/verify/)
+|- [Request a preview](https://sitesmith.t3ratech.co.zw/request-preview/)
 - [FAQ](https://sitesmith.t3ratech.co.zw/faq/)
 
 ## Prices (USD)
