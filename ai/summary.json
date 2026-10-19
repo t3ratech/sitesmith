@@ -11,64 +11,32 @@
     "Add a WhatsApp button and an enquiry form",
     "Add a news section"
   ],
-  "markets": [
+  "currency": "USD",
+  "sameInEveryCountry": true,
+  "deposit": 50,
+  "stayVisibleMonthly": 15,
+  "payment": "PayNow (EcoCash, OneMoney, InnBucks, ZimSwitch, cards) in Zimbabwe; PayPal (any card or PayPal balance) or USDT on BNB Smart Chain anywhere",
+  "tiers": [
     {
-      "market": "United States and United Kingdom",
-      "deposit": 250,
-      "stayVisibleMonthly": 149,
-      "payment": "PayPal (any card or PayPal balance) or USDT on BNB Smart Chain",
-      "tiers": [
-        {
-          "id": "essential",
-          "name": "Essential",
-          "price": 990,
-          "renewalPerYear": 240,
-          "recommended": false
-        },
-        {
-          "id": "self-managed",
-          "name": "Self-Managed",
-          "price": 1490,
-          "renewalPerYear": 300,
-          "recommended": false
-        },
-        {
-          "id": "signature",
-          "name": "Signature",
-          "price": 2490,
-          "renewalPerYear": 360,
-          "recommended": true
-        }
-      ]
+      "id": "essential",
+      "name": "Essential",
+      "price": 70,
+      "renewalPerYear": 20,
+      "recommended": false
     },
     {
-      "market": "Zimbabwe",
-      "deposit": 50,
-      "stayVisibleMonthly": 15,
-      "payment": "PayNow (EcoCash, OneMoney, InnBucks, ZimSwitch, cards), PayPal or USDT on BNB Smart Chain",
-      "tiers": [
-        {
-          "id": "essential",
-          "name": "Essential",
-          "price": 70,
-          "renewalPerYear": 20,
-          "recommended": false
-        },
-        {
-          "id": "self-managed",
-          "name": "Self-Managed",
-          "price": 120,
-          "renewalPerYear": 25,
-          "recommended": false
-        },
-        {
-          "id": "signature",
-          "name": "Signature",
-          "price": 180,
-          "renewalPerYear": 30,
-          "recommended": true
-        }
-      ]
+      "id": "self-managed",
+      "name": "Self-Managed",
+      "price": 120,
+      "renewalPerYear": 25,
+      "recommended": false
+    },
+    {
+      "id": "signature",
+      "name": "Signature",
+      "price": 180,
+      "renewalPerYear": 30,
+      "recommended": true
     }
   ]
 }

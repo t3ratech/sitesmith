@@ -10,8 +10,7 @@
 - [FAQ](https://sitesmith.t3ratech.co.zw/faq/)
 
 ## Prices (USD)
-- United States and United Kingdom: Essential $990 then $240/year; Self-Managed $1,490 then $300/year; Signature $2,490 then $360/year. Deposit $250. Stay Visible $149/month. Payment: PayPal (any card or PayPal balance) or USDT on BNB Smart Chain.
-- Zimbabwe: Essential $70 then $20/year; Self-Managed $120 then $25/year; Signature $180 then $30/year. Deposit $50. Stay Visible $15/month. Payment: PayNow (EcoCash, OneMoney, InnBucks, ZimSwitch, cards), PayPal or USDT on BNB Smart Chain.
+- Essential $70 then $20/year; Self-Managed $120 then $25/year; Signature $180 then $30/year. Deposit $50. Stay Visible $15/month. Same in every country. Payment: PayNow (EcoCash, OneMoney, InnBucks, ZimSwitch, cards) in Zimbabwe; PayPal (any card or PayPal balance) or USDT on BNB Smart Chain anywhere.
 
 ## Contact
 - Email only: admin@t3ratech.co.zw

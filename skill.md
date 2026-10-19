@@ -8,19 +8,15 @@ T3rnel Sitesmith (`https://sitesmith.t3ratech.co.zw`) builds, verifies, deploys,
 
 ## Tiers and Pricing
 
-### International (US & UK — USD)
-- **Deposit to start**: $250 (non-refundable, credited toward total price)
-- **Essential ($990 once, then $240/yr)**: Editorial `professional` design, hosting + domain included year 1, 2 updates/month handled by our team, Visibility Launch.
-- **Self-Managed ($1,490 once, then $300/yr)**: Everything in Essential + passwordless magic-link team portal (`t3rnel-sitesmith-admin`) to publish news, edit team profiles, and upload 960px+ photos.
-- **Signature ($2,490 once, then $360/yr — Recommended)**: Bespoke `cinema` WebGL depth-journey architecture + full team portal with 100 MB video clip uploads and photo galleries.
-- **Stay Visible (Optional)**: $149/month for 8 scheduled social/blog posts per month, citation maintenance, and monthly search & AI visibility reporting.
+One price list, in USD, the same in every country (also at https://sitesmith.t3ratech.co.zw/ai/summary.json):
 
-### Zimbabwe Local Market (USD)
-- **Deposit to start**: $50 (non-refundable, credited toward total price)
-- **Essential**: $70 once ($20 balance at go-live), then $20/yr
-- **Self-Managed**: $120 once ($70 balance at go-live), then $25/yr
-- **Signature (Recommended)**: $180 once ($130 balance at go-live), then $30/yr
-- **Stay Visible (Optional)**: $15/month
+- **Deposit to start**: $50 (non-refundable, credited toward the price)
+- **Essential, $70 once ($20 balance at go-live), then $20/yr**: professional design, hosting and domain, 2 updates a month handled by our team, the Visibility Launch.
+- **Self-Managed, $120 once ($70 balance), then $25/yr**: everything in Essential, plus a passwordless team portal to publish news, edit team profiles and upload photos.
+- **Signature, $180 once ($130 balance), then $30/yr (recommended)**: the cinematic design, plus the team portal with video clip uploads and photo galleries.
+- **Stay Visible (optional)**: $15/month for 8 scheduled posts a month, citation upkeep and a monthly visibility report.
+
+Payment is always on a WavePay checkout page sent by email: PayNow in Zimbabwe, PayPal or USDT on BNB Smart Chain anywhere.
 
 ## How to engage
 
